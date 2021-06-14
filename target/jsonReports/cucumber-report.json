@@ -1,0 +1,129 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-14T17:51:26.598Z",
+        "before": [
+          {
+            "result": {
+              "duration": 419000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Fetch flight details",
+        "description": "",
+        "id": "validating-place;fetch-flight-details",
+        "after": [
+          {
+            "result": {
+              "duration": 64600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6228993300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on Ixigo website",
+            "match": {
+              "location": "ValidationSteps.user_is_on_Ixigo_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 26875163000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter details for journey",
+            "match": {
+              "location": "ValidationSteps.user_enter_details_for_journey()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2085368500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "clicking on search",
+            "match": {
+              "location": "ValidationSteps.clicking_on_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104815400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user is on serched result page",
+            "match": {
+              "location": "ValidationSteps.user_is_on_serched_result_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15395483800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "validate filters",
+            "match": {
+              "location": "ValidationSteps.validate_filters()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2084393200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "print the list of airlines costing less than 7000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7000",
+                  "offset": 45
+                }
+              ],
+              "location": "ValidationSteps.print_the_list_of_airlines_costing_less_than(Integer)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ixigo"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Place",
+    "description": "",
+    "id": "validating-place",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/PlaceValidation.feature",
+    "tags": []
+  }
+]
